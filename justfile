@@ -39,3 +39,6 @@ build-right:
 
 clean:
 	rm -rf build/
+
+format:
+    dtsfmt config/glove80.keymap
