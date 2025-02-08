@@ -27,3 +27,21 @@
 
 #define COMBO_IDLE_FAST 150
 #define COMBO_IDLE_SLOW 50
+
+/* Reconfigurations */
+
+&sk { // Sticky Key
+	release-after-ms = <900>; // Release after 0.9s
+	quick-release;            // No double capitalization when rolling keys
+};
+
+&sl { // Sticky Layer
+	release-after-ms = <1000>; // Default: 1000
+	ignore-modifiers;          // Allow chording sticky mods & layers
+};
+
+&lt { // Layer-Tap
+	flavor = "balanced";
+	tapping-term-ms = <200>;
+	quick-tap-ms = <QUICK_TAP_MS>;
+};
