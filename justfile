@@ -17,7 +17,7 @@ bootstrap:
 update:
     .venv/bin/west update
 
-build: format build-left build-right
+build: reformat build-left build-right
 
 build-left:
 	.venv/bin/west build \
@@ -40,5 +40,5 @@ build-right:
 clean:
 	rm -rf build/
 
-format:
+reformat:
     dtsfmt config/glove80.keymap
