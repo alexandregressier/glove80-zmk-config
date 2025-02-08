@@ -5,6 +5,9 @@
 #include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/rgb.h>
 
+#define HOST_OS 2 // = macOS
+#include "zmk-helpers/helper.h" // HOST_OS must be defined before including it
+
 #include "glove80_default_behaviors.dtsi"
 #include "glove80_key_positions.h"
 
