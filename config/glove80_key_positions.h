@@ -1,83 +1,107 @@
-#define LC1R2 15
-#define LC1R3 27
-#define LC1R4 39
-#define LC1R5 51
-#define LC2R1 4
-#define LC2R2 14
-#define LC2R3 26
-#define LC2R4 38
-#define LC2R5 50
-#define LC2R6 68
-#define LC3R1 3
-#define LC3R2 13
-#define LC3R3 25
-#define LC3R4 37
-#define LC3R5 49
-#define LC3R6 67
-#define LC4R1 2
-#define LC4R2 12
-#define LC4R3 24
-#define LC4R4 36
-#define LC4R5 48
-#define LC4R6 66
-#define LC5R1 1
-#define LC5R2 11
-#define LC5R3 23
-#define LC5R4 35
-#define LC5R5 47
-#define LC5R6 65
-#define LC6R1 0
-#define LC6R2 10
-#define LC6R3 22
-#define LC6R4 34
-#define LC6R5 46
-#define LC6R6 64
+#define C1R2_L 15
+#define C1R3_L 27
+#define C1R4_L 39
+#define C1R5_L 51
+#define C2R1_L 4
+#define C2R2_L 14
+#define C2R3_L 26
+#define C2R4_L 38
+#define C2R5_L 50
+#define C2R6_L 68
+#define C3R1_L 3
+#define C3R2_L 13
+#define C3R3_L 25
+#define C3R4_L 37
+#define C3R5_L 49
+#define C3R6_L 67
+#define C4R1_L 2
+#define C4R2_L 12
+#define C4R3_L 24
+#define C4R4_L 36
+#define C4R5_L 48
+#define C4R6_L 66
+#define C5R1_L 1
+#define C5R2_L 11
+#define C5R3_L 23
+#define C5R4_L 35
+#define C5R5_L 47
+#define C5R6_L 65
+#define C6R1_L 0
+#define C6R2_L 10
+#define C6R3_L 22
+#define C6R4_L 34
+#define C6R5_L 46
+#define C6R6_L 64
 
-#define LT1 52
-#define LT2 53
-#define LT3 54
-#define LT4 69
-#define LT5 70
-#define LT6 71
+#define T1_L 52
+#define T2_L 53
+#define T3_L 54
+#define T4_L 69
+#define T5_L 70
+#define T6_L 71
 
-#define RC1R2 16
-#define RC1R3 28
-#define RC1R4 40
-#define RC1R5 58
-#define RC2R1 5
-#define RC2R2 17
-#define RC2R3 29
-#define RC2R4 41
-#define RC2R5 59
-#define RC2R6 75
-#define RC3R1 6
-#define RC3R2 18
-#define RC3R3 30
-#define RC3R4 42
-#define RC3R5 60
-#define RC3R6 76
-#define RC4R1 7
-#define RC4R2 19
-#define RC4R3 31
-#define RC4R4 43
-#define RC4R5 61
-#define RC4R6 77
-#define RC5R1 8
-#define RC5R2 20
-#define RC5R3 32
-#define RC5R4 44
-#define RC5R5 62
-#define RC5R6 78
-#define RC6R1 9
-#define RC6R2 21
-#define RC6R3 33
-#define RC6R4 45
-#define RC6R5 63
-#define RC6R6 79
+#define C1R2_R 16
+#define C1R3_R 28
+#define C1R4_R 40
+#define C1R5_R 58
+#define C2R1_R 5
+#define C2R2_R 17
+#define C2R3_R 29
+#define C2R4_R 41
+#define C2R5_R 59
+#define C2R6_R 75
+#define C3R1_R 6
+#define C3R2_R 18
+#define C3R3_R 30
+#define C3R4_R 42
+#define C3R5_R 60
+#define C3R6_R 76
+#define C4R1_R 7
+#define C4R2_R 19
+#define C4R3_R 31
+#define C4R4_R 43
+#define C4R5_R 61
+#define C4R6_R 77
+#define C5R1_R 8
+#define C5R2_R 20
+#define C5R3_R 32
+#define C5R4_R 44
+#define C5R5_R 62
+#define C5R6_R 78
+#define C6R1_R 9
+#define C6R2_R 21
+#define C6R3_R 33
+#define C6R4_R 45
+#define C6R5_R 63
+#define C6R6_R 79
 
-#define RT1 57
-#define RT2 56
-#define RT3 55
-#define RT4 74
-#define RT5 73
-#define RT6 72
+#define T1_R 57
+#define T2_R 56
+#define T3_R 55
+#define T4_R 74
+#define T5_R 73
+#define T6_R 72
+
+
+#define KEYS_L C6R1_L C5R1_L C4R1_L C3R1_L C2R1_L        \
+               C6R2_L C5R2_L C4R2_L C3R2_L C2R2_L C1R2_L \
+               C6R3_L C5R3_L C4R3_L C3R3_L C2R3_L C1R3_L \
+               C6R4_L C5R4_L C4R4_L C3R4_L C2R4_L C1R4_L \
+               C6R5_L C5R5_L C4R5_L C3R5_L C2R5_L C1R5_L \
+               C6R6_L C5R6_L C4R6_L C3R6_L C2R6_L
+
+#define THUMB_L T1_L T2_L T3_L \
+                T4_L T5_L T6_L
+
+#define KEYS_R          C2R1_R C3R1_R C4R1_R C5R1_R C6R1_R \
+                 C1R2_R C2R2_R C3R2_R C4R2_R C5R2_R C6R2_R \
+                 C1R3_R C2R3_R C3R3_R C4R3_R C5R3_R C6R3_R \
+                 C1R4_R C2R4_R C3R4_R C4R4_R C5R4_R C6R4_R \
+                 C1R5_R C2R5_R C3R5_R C4R5_R C5R5_R C6R5_R \
+                        C2R6_R C3R6_R C4R6_R C5R6_R C6R6_R
+
+#define THUMB_R T3_R T2_R T1_R \
+                T6_R T5_R T4_R
+
+
+#define THUMBS THUMB_L THUMB_R
