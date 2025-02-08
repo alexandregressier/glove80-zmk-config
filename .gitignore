@@ -1,2 +1,18 @@
-*~
+# JetBrains IDEs
+.idea/
+
+# Python venv
+.venv/
+
+# West
+.west/
+build/
+/zephyr/
+/modules/
+/zmk/
+/zmk-antecedent-morph/
+/zmk-auto-layer/
+/zmk-helpers/
+
+# Firmware files
 *.uf2
