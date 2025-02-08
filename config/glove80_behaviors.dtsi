@@ -1,0 +1,16 @@
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/ext_power.h>
+#include <dt-bindings/zmk/outputs.h>
+#include <dt-bindings/zmk/rgb.h>
+
+#include "glove80_default_behaviors.dtsi"
+#include "glove80_key_positions.h"
+
+
+/* Layers */
+
+#define DEFAULT 0
+#define LOWER 1
+#define MAGIC 2
